@@ -70,18 +70,3 @@ if __name__ == '__main__':
             elif transaction_type == '4':
                 print('Thank You, bye!')
                 logged_in = False
-
-# balance = multiprocessing.Value('i', 100)
-# lock = multiprocessing.Lock()
-#
-# p1 = multiprocessing.Process(target=check_balance, args=(balance,lock))
-# p2 = multiprocessing.Process(target=withdraw, args=(balance,lock,50))
-# p3 = multiprocessing.Process(target=deposit, args=(balance,lock,25))
-#
-# p1.start()
-# p2.start()
-# p3.start()
-#
-# p1.join()
-# p2.join()
-# p3.join()
